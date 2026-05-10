@@ -28,6 +28,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -71,6 +72,7 @@
 
         <activity
             android:name=".app.ActivitiesListActivity"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
             android:exported="true" />
 
         <activity

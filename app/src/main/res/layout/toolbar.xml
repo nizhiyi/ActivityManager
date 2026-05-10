@@ -8,6 +8,7 @@
     android:background="?attr/colorPrimary"
     android:elevation="2dp"
     android:minHeight="?attr/actionBarSize"
+    android:maxHeight="80dp"
     android:theme="@style/ToolbarStyle"
     app:popupTheme="@style/AppTheme.PopupOverlay"
     tools:ignore="UnusedAttribute"

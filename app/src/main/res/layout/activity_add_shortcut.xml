@@ -21,7 +21,8 @@
             app:navigationIcon="@drawable/ic_close"
             app:navigationIconTint="@color/white"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="@string/activity_option_create_shortcut" />
+            app:title="@string/activity_option_create_shortcut"
+            android:fitsSystemWindows="true"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 

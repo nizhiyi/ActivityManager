@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingTop="24dp">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -21,8 +22,7 @@
             app:navigationIcon="@drawable/ic_close"
             app:navigationIconTint="@color/white"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="@string/activity_option_create_shortcut"
-            android:fitsSystemWindows="true"/>
+            app:title="@string/activity_option_create_shortcut" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

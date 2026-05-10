@@ -16,7 +16,7 @@ android {
     defaultConfig {
         applicationId = "com.activitymanager"
         minSdk = 23
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 561
         versionName = "5.4.21"
 
